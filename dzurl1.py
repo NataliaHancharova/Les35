@@ -8,6 +8,6 @@ def get_url():
         requests.get(url)
 
     end = time.time()
-    print(f'Выполнилось за {end - start} секунд')
+    print(f'Время выполнения за {end - start} секунд')
 
 get_url()
